@@ -24,12 +24,7 @@ HomeLink is only compatible with HomeLink devices accessible via the HomeLink Ap
 
 {% include integrations/config_flow.md %}
 
-{% configuration_basic %}
-Email:
-    description: "The email for your HomeLink account."
-Password:
-    description: "The password for your HomeLink account."
-{% endconfiguration_basic %}
+During setup, the HomeLink sign-in page opens in your web browser. Sign in to link your HomeLink account to Home Assistant. After you link your account, your HomeLink devices appear in Home Assistant. You can use their buttons as automation triggers.
 
 ## Removing the integration
 
